@@ -1,0 +1,48 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#text {
+    font-size: 28px
+}
+
+#felsa {
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(5, 46, 46);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    transition-duration: 0.1s;
+}
+
+#felsa:hover {
+    background-color: brown;
+    color: cornsilk;
+}
+
+#felsa:active {
+    background-color: crimson;
+    box-shadow: 0 0px #666;
+    transform: translateY(4px);
+}
+
+li {
+    list-style-type: none;
+    padding: 15px 20px;
+    border-bottom: 1px solid red;
+}
+
+li:hover {
+    background-color: royalblue;
+    transition-duration: 0.2s;
+}
